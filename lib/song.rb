@@ -14,7 +14,7 @@ def initialize(name, artist, genre)
   @@artists << artist
 end 
 
-def .count
+def count
   return @@count 
 end 
 
