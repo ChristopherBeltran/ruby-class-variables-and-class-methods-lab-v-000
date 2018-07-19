@@ -15,7 +15,7 @@ def initialize(name, artist, genre)
 end 
 
 def count
-  @@count 
+  return @@count 
 end 
 
 def genres 
