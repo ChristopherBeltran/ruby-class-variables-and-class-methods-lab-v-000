@@ -29,5 +29,5 @@ def self.artists
 end 
 
 def self.genre_count
-  
+  Hash[*@@genres.group_by{ |names| names}]
 end 
