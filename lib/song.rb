@@ -27,4 +27,7 @@ def self.artists
   the_artists = @@artists.uniq 
   return the_artists
 end 
+
+def self.genre_count
+  
 end 
